@@ -1,0 +1,1 @@
+THis is all files for the Pendulum experiment, Physics 3719. Conducted and created by Anthony Garcia and Joshua Wallace
