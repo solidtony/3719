@@ -2,6 +2,7 @@
 \documentclass[iop]{emulateapj}
 
 \def\g{$g$}
+\def\fillin{\#\#\#\#????}
 
 \begin{document}
 
@@ -75,13 +76,46 @@ ball.
 \subsection{Procedure}
 
 The first measurements we made were those of the ball diameter and the length 
-of the hook on the top of the ball.  These data are contained in table #####. 
-These measurements were made using ???###a vernier caliper.  Due to the size of 
+of the hook on the top of the ball.  These data are contained in table \#\#\#\#\#. 
+These measurements were made using ???\#\#\#a vernier caliper.  Due to the size of 
 the ball and the large uncertainty associated with measuring the full length 
 from the pivot point to the ball center (the center of mass of the
 ball) we decided it would be best to measure the length of the string from the
 pivot point to the top of the hook of the ball and then add the measured values 
-for the hook height and ball radius afterwards.  The small uncertainties
+for the hook height and ball radius afterwards.  The uncertainties from the 
+caliper measurements are small enough compared to the uncertainty in using 
+either a measuring stick or a tape measure in determining the length of the
+string that making three separate measurements like this do not create an 
+unnecessarily large uncertainty in length.  As stated above, a tape measure 
+and/or measuring stick were used to measure the distance from the pivot point
+to the top of the hook.  This was the distance that was measured when the
+pendulum length was varied.
+
+The next step was to determine the uncertainty of the stopwatch we used.  The
+stopwatches we used were brand \#\#\#\#\#.  There were two sources of systematic 
+uncertainty in the time measurements made by the stopwatch.  The first was the 
+gain/lag the stopwatch had over real time.  The second was simply the finite 
+gradations of time measured by the stopwatch ($.01 s$).  To account for the 
+first source of systematic error (and also to determine which of the two 
+authors were most accurate and precise in their time measurements) we timed 
+ourselves against an atomic clock for 1s and 100s intervals.  (On the second
+day, 20s and 50s intervals).  These data are available in table \fillin.  JW 
+was determined to have the best combination of accuracy and precision and was 
+designated as the official timekeeper for the duration of the study.  As seen 
+in table \fillin, the mean of the time measurements were not equal to the time 
+interval attempted to be measured.  This gain/lag were accounted for in our 
+final results by finding an appropriate ``weighting factor'' by which to 
+multiply all our time measurements to increase their accuracy.  The weighting 
+factor was calculated as follows:
+
+\begin{equation}
+\label{eq:timeweight}
+W = 1 + \frac{t_{atomic}-t_{mean}}{t_{atomic}} 
+\end{equation}
+
+where $t_{atomic}$ is the time according to the atomic clock (also, the time we 
+were trying to measure) and $t_{mean}$ is the mean of the times measured by the 
+stopwatch.
 
 
 

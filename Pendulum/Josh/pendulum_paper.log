@@ -1,143 +1,113 @@
-This is TeX, Version 3.1415 (C version 6.1.2.1) (format=latex 6.2.12)  16 SEP 2013 16:58
-**&latex2e pendulum_paper.tex
-(pendulum_paper.tex
-LaTeX2e(BETA TEST RELEASE)  <2005/12/01>
-Babel <v3.7h> and hyphenation patterns for english, loaded.
-(emulateapj.cls
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2013.5.21)  16 SEP 2013 19:10
+entering extended mode
+ %&-line parsing enabled.
+**\input pendulum_paper.tex
+(./pendulum_paper.tex (./emulateapj.cls
 Document Class: emulateapj 
 \bibbaselineskip=\skip41
-(/usr/local/lib/tex/latex2e/unpacked/revtex4-1.cls
-Document Class: revtex4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revt
-ex4/ for documentation)
- Copyright (c) 2009 The American Physical Society.
+(/usr/share/texmf/tex/latex/revtex/revtex4.cls
+Document Class: revtex4 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for do
+cumentation)
+ Copyright (c) 2001 The American Physical Society.
  mailto:revtex@aps.org
  Licensed under the LPPL:
 http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
- Arthur Ogawa <arthur_ogawa at sbcglobal dot net>
- Based on work by David Carlisle <david at dcarlisle.demon.co.uk>.
-ltxutil[2010/07/25/20:33:00 4.1r utilities package (portions licensed from W. E
-. Baxter web at superscript.com)]
-LaTeX Info: Redefining \@centercr on input line 308.
-Class revtex4-1 Info: Repairing broken LaTeX eqnarray on input line 358.
-\eqncolsep=\skip42
-Class revtex4-1 Info: Repairing hyperref-unfriendly LaTeX definition of \mpfoot
-note on input line 433.
-Class revtex4-1 Info: Repairing broken LateX \@sect on input line 755.
+ Arthur Ogawa <ogawa@teleport.com>
+ Based on work by David Carlisle <david@dcarlisle.demon.co.uk>.
+ltxutil: portions licensed from W. E. Baxter (web@superscript.com)
+Class revtex4 Info: Repairing broken LateX \@sect on input line 596.
 \intertabularlinepenalty=\count79
 \@tbpen=\count80
 \@arstrutbox@hline=\box26
-Class revtex4-1 Info: Repairing broken LaTeX \@xbitor on input line 1786.
-Class revtex4-1 Info: Making \typeout \long on input line 2046.
-ltxfront[2010/07/25/20:33:00 4.1r frontmatter package (AO,DPC)]
-\c@affil=\count81
-\c@collab=\count82
-\absbox=\box27
-ltxgrid[2010/07/25/20:33:00 4.1r page grid package (portions licensed from W. E
-. Baxter web at superscript.com)]
-\c@linecount=\count83
-\output@latex=\toks14
-\box@size@1=\box28
-\box@size@2=\box29
-\@protection@box=\box30
+Class revtex4 Info: Repairing broken LaTeX \@xbitor on input line 1610.
+ltxgrid: portions licensed from W. E. Baxter (web@superscript.com)
+\c@linecount=\count81
+\output=\toks14
+\@protection@box=\box27
 \@topmark@saved=\toks15
-\footins@saved=\box31
-\footins@recovered=\box32
-\column@recovered=\box33
-\pagesofar=\box34
-\footsofar=\box35
-\pagegrid@col=\count84
-Class revtex4-1 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
- \\  on input line 5578.
-\c@part=\count85
-\c@section=\count86
-\c@subsection=\count87
-\c@subsubsection=\count88
-\c@paragraph=\count89
-\c@subparagraph=\count90
-\abovecaptionskip=\skip43
-\belowcaptionskip=\skip44
-\c@figure=\count91
-\fbox@1=\box36
-\c@table=\count92
-\fbox@2=\box37
-\c@video=\count93
-\fbox@4=\box38
-\@bibdataout=\write3
-\widetext@top=\box39
-\widetext@bot=\box40
-
-Class revtex4-1 Warning: No Society specified, using default society aps.
-
-(/usr/local/lib/tex/latex2e/unpacked/aps4-1.rtx
-File: aps4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for docu
-mentation)
-Class revtex4-1 Info: RevTeX society APS selected on input line 31.
-)
-
-Class revtex4-1 Warning: No journal specified, using default pra.
-
-Class revtex4-1 Info: APS journal PRA selected on input line 7545.
-
-Class revtex4-1 Warning: No type size specified, using default 10.
-
-(/usr/local/lib/tex/latex2e/unpacked/aps10pt4-1.rtx
-File: aps10pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
-documentation)
-Class revtex4-1 Info: RevTeX pointsize 10pt selected on input line 30.
-)
-(/usr/local/lib/tex/latex2e/unpacked/textcase.sty
-Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
-)
-(/usr/local/lib/tex/inputs/url.sty
+\footins@saved=\box28
+\pagesofar=\box29
+\footbox=\box30
+\pagegrid@col=\count82
+Class revtex4 Info: Incorporating package {textcase}  [1998/11/12 v0.06 Text on
+ly upper/lower case changing (DPC)]. on input line 3682.
+(/usr/share/texmf/tex/latex/ltxmisc/url.sty
 \Urlmuskip=\muskip10
 Package: url 2005/06/27  ver 3.2  Verb mode for urls, etc.
 )
-(/usr/local/lib/tex/latex2e/unpacked/natbib.sty
-Package: natbib 2009/11/07 8.31a (PWD, AO)
-\bibhang=\skip45
-\bibsep=\skip46
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count94
-)
-Class revtex4-1 Info: Repairing natbib's \BibitemShut on input line 7549.
+\c@affil=\count83
+\absbox=\box31
+\c@part=\count84
+\c@section=\count85
+\c@subsection=\count86
+\c@subsubsection=\count87
+\c@paragraph=\count88
+\c@subparagraph=\count89
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count90
+\c@table=\count91
 
-(/usr/local/lib/tex/latex2e/unpacked/revsymb4-1.sty
-Package: revsymb4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ f
-or documentation)
-LaTeX Info: Redefining \REV@mathfrak on input line 119.
+(/usr/share/texmf/tex/latex/natbib/natbib.sty
+Package: natbib 2007/02/05 8.0 (PWD)
+\bibhang=\skip44
+\bibsep=\skip45
+LaTeX Info: Redefining \cite on input line 602.
+\c@NAT@ctr=\count92
+)
+\widetext@top=\box32
+\widetext@bot=\box33
+
+(/usr/share/texmf/tex/latex/revtex/revsymb.sty
+Package: revsymb 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documenta
+tion)
+LaTeX Info: Redefining \REV@mathfrak on input line 118.
 ))
-(/usr/local/lib/tex/latex2e/unpacked/latexsym.sty
+
+Class revtex4 Warning: No Society specified, using generic APS style.
+
+(/usr/share/texmf/tex/latex/revtex/aps.rtx
+File: aps.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentatio
+n)
+)
+(/usr/share/texmf/tex/latex/revtex/10pt.rtx
+File: 10pt.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentati
+on)
+)
+(/usr/share/texmf/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
 )
-(/usr/local/lib/tex/latex2e/unpacked/graphicx.sty
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/lib/tex/latex2e/unpacked/keyval.sty
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/local/lib/tex/latex2e/unpacked/graphics.sty
-Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/lib/tex/inputs/trig.sty
-Package: trig 1994/10/16 v1.08 sin cos tan (DPC)
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/lib/tex/latex2e/unpacked/graphics.cfg)
-Package graphics Info: Driver file: dvips.def on input line 80.
+(/usr/share/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: dvips.def on input line 90.
 
-(/usr/local/lib/tex/latex2e/unpacked/dvips.def
+(/usr/share/texmf/tex/latex/graphics/dvips.def
 File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
 \Gin@req@height=\dimen102
 \Gin@req@width=\dimen103
 )
-(/usr/local/lib/tex/latex2e/unpacked/amssymb.sty
+(/usr/share/texmf/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2002/01/22 v2.2d
 
-(/usr/local/lib/tex/latex2e/unpacked/amsfonts.sty
+(/usr/share/texmf/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2001/10/25 v2.2f
 \@emptytoks=\toks17
 \symAMSa=\mathgroup5
@@ -147,26 +117,26 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 LaTeX Info: Redefining \frak on input line 135.
 LaTeX Info: Redefining \Bbb on input line 137.
 ))
-(/usr/local/lib/tex/latex2e/unpacked/longtable.sty
-Package: longtable 2000/10/22 v4.10 Multi-page Table package (DPC)
-\LTleft=\skip47
-\LTright=\skip48
-\LTpre=\skip49
-\LTpost=\skip50
-\LTchunksize=\count95
+(/usr/share/texmf/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip46
+\LTright=\skip47
+\LTpre=\skip48
+\LTpost=\skip49
+\LTchunksize=\count93
 \LTcapwidth=\dimen104
-\LT@head=\box41
-\LT@firsthead=\box42
-\LT@foot=\box43
-\LT@lastfoot=\box44
-\LT@cols=\count96
-\LT@rows=\count97
-\c@LT@tables=\count98
-\c@LT@chunks=\count99
+\LT@head=\box34
+\LT@firsthead=\box35
+\LT@foot=\box36
+\LT@lastfoot=\box37
+\LT@cols=\count94
+\LT@rows=\count95
+\c@LT@tables=\count96
+\c@LT@chunks=\count97
 \LT@p@ftn=\toks18
 )
-(/usr/local/lib/tex/inputs/epsf.sty
-This is `epsf.tex' v2.7 <25 October 1996>
+(/usr/share/texmf/tex/generic/epsf/epsf.sty
+This is `epsf.tex' v2.7.3 <23 July 2005>
 \epsffilein=\read1
 \epsfframemargin=\dimen105
 \epsfframethickness=\dimen106
@@ -177,78 +147,71 @@ This is `epsf.tex' v2.7 <25 October 1996>
 \epsfysize=\dimen111
 \pspoints=\dimen112
 )
-\c@front@matter@foot@note=\count100
+\c@front@matter@foot@note=\count98
 \alt@affil@toks=\toks19
 \alt@affil@toks@count=\toks20
-\keys@width=\skip51
-\c@lastfootnote=\count101
-\c@remember@figure@num=\count102
-\c@remember@table@num=\count103
+\keys@width=\skip50
+\c@lastfootnote=\count99
+\c@remember@figure@num=\count100
+\c@remember@table@num=\count101
 \bibindent=\dimen113
-\plot@width=\skip52
-\c@table@save=\count104
-\table@note@skip=\skip53
-\deluxe@table@width=\skip54
-\@d@t@a=\skip55
-\c@deluxe@table@num=\count105
-\abovedeluxetableskip=\skip56
-\belowdeluxetableskip=\skip57
+\plot@width=\skip51
+\c@table@save=\count102
+\table@note@skip=\skip52
+\deluxe@table@width=\skip53
+\@d@t@a=\skip54
+\c@deluxe@table@num=\count103
+\abovedeluxetableskip=\skip55
+\belowdeluxetableskip=\skip56
 \lastrowheight=\dimen114
 \DT@p@ftn=\toks21
-\pt@column=\count106
-\pt@ncol=\count107
-)
-Class revtex4-1 Info: Patching LaTeX tabular. on input line 6.
-Class revtex4-1 Info: Patching unrecognized longtable package. (Proceeding with
- fingers crossed) on input line 6.
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 6.
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 6.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 6.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 6.
- (pendulum_paper.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 19.
- (/usr/local/lib/tex/latex2e/unpacked/ulasy.fd
+\pt@column=\count104
+\pt@ncol=\count105
+) (./pendulum_paper.aux)
+\openout1 = `pendulum_paper.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+Class revtex4 Info: Patching LaTeX tabular. on input line 7.
+Class revtex4 Info: Patching unrecognized longtable package. (Proceeding with f
+ingers crossed) on input line 7.
+Class revtex4 Info: cite was not loaded (OK!) on input line 7.
+Class revtex4 Info: multicol was not loaded (OK!) on input line 7.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 20.
+ (/usr/share/texmf/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 19.
+LaTeX Font Info:    Try loading font information for U+msa on input line 20.
 
-(/usr/local/lib/tex/latex2e/unpacked/umsa.fd
+(/usr/share/texmf/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2002/01/19 v2.2g AMS font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 19.
+LaTeX Font Info:    Try loading font information for U+msb on input line 20.
 
-(/usr/local/lib/tex/latex2e/unpacked/umsb.fd
+(/usr/share/texmf/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2002/01/19 v2.2g AMS font definitions
 )
 
-LaTeX Warning: Empty `thebibliography' environment on input line 125.
+LaTeX Warning: Empty `thebibliography' environment on input line 170.
 
-No file pendulum_paper.bbl.
-[1] (pendulum_paper.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
-
- ) 
+[1] (./pendulum_paper.aux) ) 
 Here is how much of TeX's memory you used:
- 3297 strings out of 28583
- 39299 string characters out of 471185
- 99966 words of memory out of 524286
- 6207 multiletter control sequences out of 27000
- 7900 words of font info for 32 fonts, out of 800000 for 255
- 14 hyphenation exceptions out of 2003
- 32i,4n,26p,227b,236s stack positions out of 300i,40n,60p,3000b,4000s
+ 2772 strings out of 256217
+ 33207 string characters out of 1917095
+ 107225 words of memory out of 1500000
+ 6062 multiletter control sequences out of 10000+200000
+ 7900 words of font info for 32 fonts, out of 1200000 for 2000
+ 645 hyphenation exceptions out of 8191
+ 32i,4n,26p,225b,159s stack positions out of 5000i,500n,6000p,200000b,15000s
 
-Output written on pendulum_paper.dvi (1 page, 1560 bytes).
+Output written on pendulum_paper.dvi (1 page, 6792 bytes).
