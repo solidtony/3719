@@ -1,0 +1,100 @@
+%20130916 JW, first writing
+\documentclass[iop]{emulateapj}
+
+\def\g{$g$}
+
+\begin{document}
+
+\title{Humpty Dumpty Had a Great Fall: Measuring the Acceleration due to Gravity with a Simple Pendulum}
+
+\author{ Anthony Garcia
+and
+Joshua Wallace}
+\affil{Advanced Undegrad Lab,Department of Physics and Astronomy, University of Utah,
+ 115 South 1400 East, Salt Lake City, UT 84112
+}
+
+\begin{abstract}
+
+\g man, \g!
+
+\end{abstract}
+
+\section{Introduction}
+
+
+
+
+
+
+
+
+
+
+
+\section{Theoretical Background}
+\label{sec:theory}
+
+
+
+
+
+
+
+
+
+
+
+\section{Experimental Procedure}
+\label{sec:procedure}
+
+\subsection{Setup}
+
+
+
+\subsection{Procedure}
+
+
+
+
+
+
+
+
+
+
+
+\section{Data and Results}
+\label{sec:data}
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Discussion}
+\label{sec:discuss}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Conclusion}
