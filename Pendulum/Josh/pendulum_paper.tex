@@ -1,9 +1,10 @@
 %20130916 JW, first writing
-\documentclass[iop]{emulateapj}
+\documentclass[iop,numberedappendix,appendixfloats]{emulateapj}
 
 \def\g{$g$}
 \def\t{$t$}
 \def\T{$T$}
+\def\Ttwen{$T_{20}$}
 \def\fillin{\#\#\#\#????}
 
 \begin{document}
@@ -106,21 +107,19 @@ was determined to have the best combination of accuracy and precision and was
 designated as the official timekeeper for the duration of the study.  As seen 
 in table \fillin, the mean of the time measurements were not equal to the time 
 interval attempted to be measured.  This gain/lag were accounted for in our 
-final results by finding an appropriate ``weighting factor'' by which to 
-multiply all our time measurements to increase their accuracy.  The weighting 
-factor was calculated as follows:
+final results by finding the what percentage of the real, atomic clock time 
+was the gain/lag time.  To find this percentage we used the following equation:
 
 \begin{equation}
 \label{eq:timeweight}
-W = 1 + \frac{t_{atomic}-t_{mean}}{t_{atomic}} 
+P=\frac{t_{atomic}-t_{mean}}{t_{atomic}} 
 \end{equation}
 
-where $t_{atomic}$ is the real time as measured by the atomic clock 
+where $P$ is the percentage, $t_{atomic}$ is the real time as measured by the 
+atomic clock 
 and $t_{mean}$ is the mean of the times measured by the 
-stopwatch.  The fraction determines what percent of the real time was measured 
-by the average of the stopwatch times, which is then added to $1$ to provide a 
-multiplicative factor to correct our time measurements.  The standard deviation 
-of the measured times is included in our final calculation of the error of $T$. 
+stopwatch.  This percentage was multiplied by all the \T\ we measured to give
+the error from the gain/lag of the stopwatch.
 
 Measuring against the atomic clock provided a measure of both the stopwatch's 
 own limitations and the user's reaction time.  However, it is impossible to 
@@ -155,10 +154,26 @@ more similar to the method that used the release time of the pendulum to
 measure \T.  Therefore, the weighting factor determined by the timing against 
 the atomic clock method factors in the inaccuracy of the second method more 
 than the first method (in addition to the stopwatch's own gain/lag). The 
-inaccuracy of the second method being thus accounted for we are free to choose 
+inaccuracy of the second method being thus accounted for we are free to choose..... 
 
-
-
+We then measured the period of 20 oscillations (starting from the second 
+swing) five separate times. We refer to this as $T_{20}$. The purpose of this 
+measurement was to reduce the error in determining the period.  Since 
+$T=\frac{T_{20}}{20}$ it follows that
+\begin{equation}
+\delta_T = \frac{\delta_{T20}}{20}.  Derive this later
+\end{equation}
+Thus, measuring 20 periods allows us to reduce the error in \T\ by a factor of 
+$20$.  Since measuring 20 periods is not more difficult or significantly more 
+time consuming than just measuring one period, this provides a relatively easy 
+way to reduce the uncertainty in \T.  After measuring \Ttwen\ five times we 
+found the mean, the standard deviation, and the standard deviation of the 
+mean.  As will be shown in section~\ref{sec:data}, five was a good number of trials to 
+choose to reduce the random uncertainty to values comparable to the systematic 
+uncertainties without having to perform the experiment and unnecessarily large 
+number of times. {\bf We must show this!!!!}  The length of the string was 
+then increased to about \fillin $cm$ and the above process was repeated (i.e., 
+timing the first period, timing the second period, timing 20 periods).
 
 
 
@@ -212,7 +227,9 @@ inaccuracy of the second method being thus accounted for we are free to choose
 
 \acknowledgments
 
-We thank ....
+We thank Lia Papadopolous and Zach Carson for helpful conversations and 
+suggestions.
+
 
 
 
