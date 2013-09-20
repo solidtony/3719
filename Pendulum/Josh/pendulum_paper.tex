@@ -35,18 +35,20 @@ gravity. A basketball player shoots a ball upwards, expecting the familiar
 parabolic arc due to gravity to bring it back down into the basket.  Even the
 common phenomenon known as walking relies on gravity's pull to give our feet
 the friction needed to push us forward. Our experience with gravity is so
-intimate that we know exactly how things perform in earth's gravity field 
-without having to measure and calculate (e.g. the basketball player knowing the 
-right momentum to give the ball to score a basket without any calculation being
-performed).
+intimate that we can predict the exact trajectory of free-falling objects 
+without having to use any equations or numbers (take the basketball player's 
+shot for example. Shots are made regularly without any prior knowledge of 
+the equations governing the motion of the ball).
 
-\g\ as a measure of force of gravity...
+One measure of the force of gravity is \g, the acceleration due to gravity. 
+Since the acceleration due to gravity is independent of an object's mass, 
+this provides a universal measure of gravity's pull on everything.
 
 Importance of calculating g:  study mantle, earthquakes?, earth's density 
 (similar to recent lunar probes), clock timing (which use pendula as well)...
 
 To calculate \g, we will use a pendulum setup quite similar to that of the
-pendulum clocks mentioned above.  Section~\ref{sec:theory} will introduce the 
+pendulum clocks mentioned above.  Such pendulum experimentsSection~\ref{sec:theory} will introduce the 
 physics behind this calculation more thoroughly.  Here we state the intended 
 goals of our study of the motion of a simple pendulum:  (1) To be able to 
 determine the value of \g, which as discussed above is an important parameter
@@ -65,7 +67,40 @@ Later gater...
 Also talk about small angle approximation...
 
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=85mm]{../../Images/FreebodyDiagram.png}
+\caption{Diagram of a simple pendulum. 
+$\theta$ is the angle between the string
+and the rest position of the pendulum, $l$ is the length of the pendulum,
+$\vec{W}$ is the weight force of the bob (i.e. $W = mg$), $\vec{W}_\perp$ is the 
+component of the weight force perpendicular to $l$, $\vec{W}_\parallel$ 
+is the component of the weight force parallel to $l$.}
+\label{Pendulum}
+\end{figure}
 
+
+The motion of a simple pendulum can be derived by analyzing the torques (or forces) that acts 
+on the bob of the pendulum. Assume the string that the pendulum hangs from is massless, and
+its length l does not change. Friction on the string at the fulcrum as well as the
+air drag on the bob is also ignored. See Appendix A for the full derivation
+of the equation of motion for the simple harmonic oscillator.
+
+
+From Figure 1; T is the tension force on the rope, l is the length of the
+rope (or r$\cdot\hat{r}$, where $\hat{r}$ is a unit vector), $\theta$ is the angle, and W is the weight given by m$\cdot$g.
+
+
+Using the small angle approximation
+\begin{equation}
+\boxed{sin\theta \approx \theta}
+\end{equation}
+for small angles, we derive the equation of motion
+\begin{equation}
+\boxed{T = 2\pi\sqrt{\frac{l}{g}}}
+\end{equation}
+to model a simple pendulum.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
@@ -74,8 +109,37 @@ Also talk about small angle approximation...
 
 \subsection{Setup}
 
-The setup consisted of a metal frame attached to a wall, a string, and a metal 
-ball.
+The setup consisted of a metal frame attached to a wall, a string, a 
+protractor, and a metal 
+ball.  The metal ball connected to the string via a hook on the ball, which 
+hooked into a loop tied in the string.  The pivot point of the pendulum was 
+set with the same screw that held the protractor on to the frame.  The screw 
+could be tightened or loosened to ensure the string's being pinned at the 
+pivot point without causing the string to be torn.  The string was anchored 
+on top of the metal frame by wrapping it around a screw and then pinning the 
+string to the frame with a nut on the screw.  The string length was easily 
+adjusted by loosening the nut, adjusting the string, and re-tightening the 
+nut.  The string had to be threaded through a tiny hole in the frame near 
+the pivot point. 
+A screw and wing nut on the side of the frame provided a convenient hold 
+for a measuring stick to measure the length of the pendulum.  The frame also 
+had a flat area in the frame level with it, which was useful for a tape 
+measure to rest against when making a measurement.  However, it should be 
+noted that a screw was used instead of a bolt to hold the string against the 
+pivot point.  This prevented us from tightening the screw against the string 
+completely, since doing so would cause the screw to sever the string.  Since 
+the screw could not be tightened completely the pivot point itself was not 
+set well.  This was a limitation in our setup which we did not have the 
+resources to fix.
+
+The protractor was held firmly but not tightly against the frame, allowing it 
+to be aligned with the vertical when the pendulum was at rest but also 
+keeping it in place during minor bumps.  While this helped us not to have to 
+reset the protractor position frequently it also made it hard to accurately 
+set the protractor in the first place. The firmness with which the protractor 
+was held made it difficult to move the protractor through the small angles 
+necessary to set the $0\deg$ point as exact as possible.  This increased the 
+uncertainty in our angle measurements.
 
 \subsection{Procedure}
 
@@ -187,7 +251,7 @@ timing the first period, timing the second period, timing 20 periods).
 A value for \g\ was then calculated for each of the above measurements (6 in 
 total). Each was compared to the accepted value of \g, \fillin.  {\bf The 
 method with the least uncertainty in \g\ was taken to be our method of choice 
-in determining a more accurate value of \g\ later.  The method chosen was the 
+in determining a more accurate value of \g\ later.}  The method chosen was the 
 "\Ttwen\" method, where the time of 20 periods are measured and the value of 
 \T\ is found by dividing \Ttwen\ by 20.  As shown in 
 equation~\ref{eq:T20error} the error of \Ttwen\ is also divided by 20, thus 
@@ -334,7 +398,8 @@ Coriolis force, moment of inertia, air friction...
 \acknowledgments
 
 We thank Lia Papadopolous and Zach Carson for helpful conversations and 
-suggestions.
+suggestions.  We also thank Zheng Zheng for help with typesetting the 
+document.
 
 
 
@@ -344,6 +409,8 @@ suggestions.
 \begin{thebibliography}{}
 
 %\bibitem[
+\bibitem[]{}
+Paul Murdin, (2008). {\it Full Meridian of Glory: Perilous Adventures in the Competition to Measure the Earth}, 1st Ed. (Copernicus Books, New York, NY 2008), p. 41.
 
 \end{thebibliography}{}
 
