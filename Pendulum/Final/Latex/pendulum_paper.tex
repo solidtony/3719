@@ -113,6 +113,21 @@ to model a simple pendulum.
 
 \subsection{Setup}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=85mm]{../../Images/Pendulum.JPG}
+\caption{The bob is hung from the string by its hook. A screw pinches the string to act as
+the pendulum's fulcrum. We measured the angle of the initial period with the 
+protractor.}
+\label{Pendulum}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 The setup consisted of a metal frame attached to a wall, a string, a 
 protractor, and a metal 
 ball.  The metal ball connected to the string via a hook on the ball, which 
@@ -354,7 +369,95 @@ Anything else to discuss?  Pitfalls?
 \section{Data and Results}
 \label{sec:data}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
+\begin{table}[H]
+\caption{Atomic Clock Measurements} % title of Table
+\centering % used for centering table
+\begin{tabular}{c c} % centered columns (4 columns)
+\hline\hline %inserts double horizontal lines
+Time Lapse & Stop Watch Time (s) \\ [0.5ex] % inserts table
+%heading
+\hline % inserts single horizontal line
+50s & 49.85 \\ % inserting body of the table
+    & 49.99 \\
+    & 50.05 \\
+    & 50.09 \\
+    & 49.98 \\
+$\overline{At}$ & 49.99 \\
+$\sigma_{\overline{At}}$ & 0.04 \\    [1ex] % [1ex] adds vertical space
+\hline %inserts single line
+\end{tabular}
+\label{table:nonlin} % is used to refer this table in the text
+\end{table}
+
+
+\begin{table}[H]
+\caption{Reaction Time} % title of Table
+\centering % used for centering table
+\begin{tabular}{c c} % centered columns (4 columns)
+\hline\hline %inserts double horizontal lines
+& Stop Watch Reaction Time (s) \\ [0.5ex] % inserts table
+%heading
+\hline % inserts single horizontal line
+& 0.15 \\ % inserting body of the table
+& 0.13\\
+& 0.15\\
+& 0.14\\
+& 0.17\\
+$\overline{Rt}$ & 0.15 \\
+$\sigma_{\overline{Rt}}$ & 0.01 \\    [1ex] % [1ex] adds vertical space
+\hline %inserts single line
+\end{tabular}
+\label{table:nonlin} % is used to refer this table in the text
+\end{table}
+
+
+
+
+\begin{table}[H]
+\caption{Period Measurement for Varying Lengths} %title of the table
+\centering % centering table
+\begin{tabular}{c rrrrr c} % creating eight columns
+\hline\hline %inserting double-line
+Length (m) & \multicolumn{5}{c}{$T_{20}$ (s)} & $\overline{T^2}$ ($s^2$)\\ [0.5ex]
+\hline % inserts single-line
+0.280 & 22.68 & 22.64 & 22.64 & 22.58 & 22.56 & 6.19\\ % Entering row contents
+0.415 & 27.03 & 27.05 & 27.07 & 27.03 & 27.06 & 5.78\\
+0.546 & 30.61 & 30.74 & 30.57 & 30.65 & 30.58 & 5.37\\
+0.638 & 32.97 & 33.04 & 33.05 & 33.03 & 32.96 & 4.75\\
+0.800 & 36.70 & 36.65 & 36.73 & 36.74 & 36.71 & 4.13\\
+0.989 & 40.65 & 40.73 & 40.62 & 40.62 & 40.72 & 3.37\\
+1.143 & 43.60 & 43.61 & 43.59 & 43.56 & 43.53 & 2.72\\
+1.293 & 46.33 & 46.46 & 46.40 & 46.26 & 46.29 & 2.34\\
+1.395 & 48.01 & 48.06 & 48.12 & 48.17 & 48.09 & 1.83\\
+1.498 & 49.77 & 49.82 & 49.81 & 49.72 & 49.70 & 1.28\\ [1ex] % [1ex] adds vertical space
+\hline % inserts single-line
+\end{tabular}
+\label{tab:hresult}
+\end{table}
+
+
+\begin{table}[H]
+\caption{Dimensions of the bob} %title of the table
+\centering % centering table
+\begin{tabular}{c c c} % creating eight columns
+\hline\hline %inserting double-line
+Quantity & Uncertainty in Measurment & Measured Value\\ [0.5ex]
+\hline % inserts single-line
+Mass (g) & $\pm$ 0.1 & 226.2\\ % Entering row contents
+Diameter (mm) & $\pm$ 0.03 & 38.02\\
+Radius (m) & $\pm$ 0.00002 & 0.01901\\
+Hook Length (mm)& $\pm$ 0.03 & 11.95\\
+Hook Length (m)& $\pm$ 0.00003 & 0.01195\\[1ex] % [1ex] adds vertical space
+\hline % inserts single-line
+\end{tabular}
+\label{tab:hresult}
+\end{table}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
@@ -417,5 +520,137 @@ document.
 Paul Murdin, (2008). {\it Full Meridian of Glory: Perilous Adventures in the Competition to Measure the Earth}, 1st Ed. (Copernicus Books, New York, NY 2008), p. 41.
 
 \end{thebibliography}{}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\appendix
+\numberwithin{equation}{section}
+\section{Appendix A: Additional Data}
+
+
+\appendix
+\numberwithin{equation}{section}
+\section{Appendix B: Derivations and Error Propagation}
+
+
+The motion of a simple pendulum can be derived by analysing the torques (or forces) that acts 
+on the bob of the pendulum. Assume the string that the pendulum hangs from is massless, and
+its length l does not change. Friction on the string at the fulcrum as well as the
+air drag on the bob is also ignored. The definition of torque is given by;
+\begin{equation}
+\boxed{\tau = \vec{r} \times \vec{F} \equiv |\vec{r}||\vec{F}|\hat{n}sin\theta}
+\end{equation}
+From Figure 1; T is the tension force on the rope, l is the length of the
+rope (or r$\cdot\hat{r}$, where $\hat{r}$ is a unit vector), $\theta$ is the angle, and W is the weight given by m$\cdot$g.
+Using the definition of the cross product;
+\begin{align*}
+\tau_T & = \vec{l} \times \vec{T} = 0 & \text{($\vec{l}$ is $||$ to $\vec{T}$)}\\
+\tau_W & = \vec{l} \times \vec{W}\\
+& = |\vec{l}||\vec{W}|\hat{n}sin\theta\\
+& = -l\cdot W\cdot sin\theta & \text{($\hat{n}$ is "-")}\\
+& = -l\cdot mg\cdot sin\theta & \text{(W = m$\cdot$g)}\\
+\end{align*}
+\begin{equation}
+\boxed{\tau_W = -lmgsin\theta}
+\end{equation}
+Newton's second law applied to rotational motion is given by,
+\begin{equation}
+\tau = I\cdot\alpha
+\end{equation}
+where I is the moment of inertia. The simple pendulum will be 
+treated as a point particle at a distance l from the origin.
+Equating the two we get;
+\begin{align*}
+\tau_W = -lmgsin\theta & = I\cdot\alpha\\
+& = (ml^2)\alpha & \text{(I = $ml^2$ for a point particle)}\\
+& = (ml^2)\ddot{\theta} & \text{($\alpha = \ddot{\theta}$)}\\
+\Rightarrow -gsin\theta & = l\ddot{\theta}\\
+\Rightarrow l\ddot{\theta} + gsin\theta & = 0
+\end{align*}
+The Taylor series of sin($\theta$) is given by
+\begin{equation}
+\boxed{sin\theta = \theta - \frac{\theta^3}{3!} + \frac{\theta^5}{5!} - \frac{\theta^7}{7!} + \frac{\theta^9}{9!} - ...}
+\end{equation}
+For small angles we get
+\begin{equation}
+\boxed{sin\theta \approx \theta}
+\end{equation}
+which is the small angle approximation. Note that the small angle approximation 
+is valid to about $15^{\circ}$.\\
+Applying the small angle approximation to our equation of motion we get
+\begin{align}
+\boxed{l\ddot{\theta} + g\theta = 0}
+\end{align}
+Solving the the differential equation;
+\begin{align*}
+l\ddot{\theta} + g\theta & = 0\\
+\Rightarrow \ddot{\theta} + \frac{g}{l}\theta & = 0\\
+\end{align*}
+The characteristic equation for this Differential Equation is
+\begin{align*}
+x^2 + \frac{g}{l} = 0\\
+\Rightarrow x = \pm i\sqrt{\frac{g}{l}}
+\end{align*}
+Which has the general equation
+\begin{align*}
+\theta(t) & = C_1e^{i\sqrt{(g/l)}t} + C_2e^{-i\sqrt{(g/l)}t}\\
+& = C_1[cos(\sqrt\frac{g}{l}t) + isin(\sqrt\frac{g}{l}t)] +\\ 
+&~~~~~~+ C_2[cos(\sqrt\frac{g}{l}t) - isin(\sqrt\frac{g}{l}t)]\\
+& = (C_1 + C_2)cos(\sqrt\frac{g}{l}t) + i(C_1 - C_2)sin(\sqrt\frac{g}{l}t)\\
+& = Acos(\sqrt\frac{g}{l}t) + Bsin(\sqrt\frac{g}{l}t)\\
+\end{align*}
+If we create a right triangle with the constants A and B, to get a hypotenuse
+constant C and angle $\phi$. That triangle can be describe with the terms;
+\begin{align*}
+sin\phi & = \frac{B}{C}\\
+cos\phi & = \frac{A}{C}
+\end{align*}
+Then if we multiply the general solution by C/C;
+\begin{align*}
+\theta(t) & = C[\frac{A}{C}cos(\sqrt\frac{g}{l}t) + \frac{B}{C}sin(\sqrt\frac{g}{l}t)]\\
+& = C[cos(\phi) cos(\sqrt\frac{g}{l}t) + sin(\phi)cos(\sqrt\frac{g}{l}t)]\\
+& = C[cos(\phi) cos(\sqrt\frac{g}{l}t) - sin(-\phi)cos(\sqrt\frac{g}{l}t)]\\
+& = C[cos(\sqrt\frac{g}{l}t - \phi)]
+\end{align*}
+$\phi$ is the phase shift. For the simple pendulum the phase shift is zero 
+because the initial angle is $\theta_0$. This gives\\
+\begin{equation*}
+\theta(t) = Ccos(\sqrt\frac{g}{l}t)
+\end{equation*}
+Then for t = 0
+\begin{align*}
+\theta(0) & = C[cos(0)]\\
+& = C\\
+& \equiv \theta_0
+\end{align*}
+Then the solution to the equation of motion is
+\begin{equation}
+\boxed{\theta(t) = \theta_0[cos(\sqrt\frac{g}{l}t)]}
+\end{equation}
+We know that the derivative of $\theta(t)$ is $\omega$ (angular velocity)
+\begin{align*}
+\dot{\theta}(t) & = \omega(t)\\
+& = -\sqrt\frac{g}{l}\theta_0[sin(\sqrt\frac{g}{l}t)]
+\end{align*}
+Angular velocity is zero every time it reaches the max height during an oscillation. We can than see for
+for what times this occurs by setting $\omega \equiv 0$.
+\begin{align*}
+\omega & \equiv 0\\
+-\sqrt\frac{g}{l}\theta_0[sin(\sqrt\frac{g}{l}t_n)] & = 0\\
+\Rightarrow \sqrt\frac{g}{l}t_n & = sin^{-1}(0)\\
+& = 2\pi n\\
+\Rightarrow t_n & = 2\pi n\sqrt\frac{l}{g}
+\end{align*}
+This periodicity is what we call the Period;
+\begin{equation}
+\boxed{T = 2\pi \sqrt\frac{l}{g}}
+\end{equation}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
 
 \end{document}
