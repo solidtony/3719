@@ -1,3 +1,4 @@
+%20130920 Work to be done still: data, conclusion appendices
 %20130916 JW, first writing
 \documentclass[iop]{emulateapj}
 
@@ -48,22 +49,35 @@ One measure of the force of gravity is \g, the acceleration due to gravity.
 Since the acceleration due to gravity is independent of an object's mass, 
 this provides a universal measure of gravity's pull on everything.
 
-Importance of calculating g:  study mantle, earthquakes?, earth's density 
-(similar to recent lunar probes), clock timing (which use pendula as well)...
+More than affecting our everyday lives, \g\ is a parameter that is used 
+for a variety of applications. For instance, in geophysics 
+variations in \g\ can be used to determine the structure and density of the 
+crust and upper mantle below a given area of the earth's surface \citet{Geo}.
+Another application of \g\ is in pendulum clocks. Christiaan Huygens 
+first invented the pendulum clock about 1656 \citet{Murin} and its fairly high 
+degree of accuracy causes it to still be used in households today (though 
+admittedly pendulum clocks have been almost completely replaced by more 
+accurate time\-keeping devices).  \g\ is an important parameter in 
+calculating how long the period of a pendulum swing will be (the eager reader 
+can skip ahead to section~\ref{sec:theory} for details of this calculation).  
+So, for a good 
+portion of man's history, \g\ determined our perception and measure of time.
 
 To calculate \g, we will use a pendulum setup quite similar to that of the
 pendulum clocks mentioned above.  Such pendulum experiments have been 
-performed for centuries, starting with Galileo \citet{Murin}. 
-
-Section~\ref{sec:theory} will introduce the 
-physics behind this calculation more thoroughly.  Here we state the intended 
+performed for centuries, first starting with Galileo \citet{Murin}. 
+Specifically, we will use an idealization of a pendulum referred to as the 
+"simple pendulum." Section~\ref{sec:theory} will give a more thorough 
+introduction to the physics and idealizations of the simple pendulum.  
+Here we state the intended 
 goals of our study of the motion of a simple pendulum:  (1) To be able to 
 determine the value of \g, which as discussed above is an important parameter
 for a variety of calculations; (2) to test a mathematical model (introduced in 
 section~\ref{sec:theory}) of a physical system and compare the correspondence 
 between the two and (3) use the process as an introduction into the sources of 
 errors and their propagation to gain greater skills as a physicist-in-training. 
-The experiment we will be performing is discussed in great detail in .......... 
+The experiment we will be performing is discussed in great detail by 
+Nelson and Olsson. \citet{Nelson} 
 
 \section{Theoretical Background}
 \label{sec:theory}
@@ -137,7 +151,17 @@ ball.  The metal ball connected to the string via a hook on the ball, which
 hooked into a loop tied in the string.  The pivot point of the pendulum was 
 set with the same screw that held the protractor on to the frame.  The screw 
 could be tightened or loosened to ensure the string's being pinned at the 
-pivot point without causing the string to be torn.  The string was anchored 
+pivot point without causing the string to be torn.  Here is one limitation of 
+our experiment; had a bolt been used instead of a screw, the bolt could 
+have been tightened more (relative to the screw) against the string without 
+severing the string.  This would have led to a better set pivot point.  
+Instead, the screw's severing properties prevented us from setting the 
+pivot point as tightly as would be possible with a bolt and therefore the 
+pivot point itself (set with a screw) had the possibility of not being set 
+well and therefore moving (which is not accounted for in our model, where the 
+pivot point is set).
+
+The string was anchored 
 on top of the metal frame by wrapping it around a screw and then pinning the 
 string to the frame with a nut on the screw.  The string length was easily 
 adjusted by loosening the nut, adjusting the string, and re-tightening the 
@@ -146,22 +170,29 @@ the pivot point.
 A screw and wing nut on the side of the frame provided a convenient hold 
 for a measuring stick to measure the length of the pendulum.  The frame also 
 had a flat area in the frame level with it, which was useful for a tape 
-measure to rest against when making a measurement.  However, it should be 
-noted that a screw was used instead of a bolt to hold the string against the 
-pivot point.  This prevented us from tightening the screw against the string 
-completely, since doing so would cause the screw to sever the string.  Since 
-the screw could not be tightened completely the pivot point itself was not 
-set well.  This was a limitation in our setup which we did not have the 
-resources to fix.
+measure to rest against when making a measurement.  Both the measuring stick 
+and measuring tape could measure lengths down to $.1~cm$ 
+($1\times 10^{-3}~m$).  A vernier caliper was used to measure the dimensions 
+of the ball; this could measure lengths down to $1\times 10^{-5}~m$. There 
+were also mirrors that could be used to reduce parallax.
 
-The protractor was held firmly but not tightly against the frame, allowing it 
-to be aligned with the vertical when the pendulum was at rest but also 
-keeping it in place during minor bumps.  While this helped us not to have to 
+
+
+The protractor was held firmly but not tightly against the frame, which 
+allowed it to be aligned with the vertical when the pendulum was at rest 
+but also 
+kept it in place during minor bumps.  While this helped us not to have to 
 reset the protractor position frequently it also made it hard to accurately 
 set the protractor in the first place. The firmness with which the protractor 
 was held made it difficult to move the protractor through the small angles 
 necessary to set the $0\deg$ point as exact as possible.  This increased the 
 uncertainty in our angle measurements.
+
+We used MyChron brand stopwatches to time the period of the pendulum 
+swing.  The stopwatch options we utilized in this experiment were the 
+"start/stop" option and the "reset" option. The stopwatch could measure time 
+We used a Westclox brand atomic clock as our standard for real time 
+to see how much our stopwatch's time varied from real time.
 
 \subsection{Procedure}
 
@@ -180,8 +211,15 @@ and/or measuring stick were used to measure the distance from the pivot point
 to the top of the hook.  This was the distance that was measured when the
 pendulum length was varied.
 
-The next step was to determine the uncertainty of the stopwatch we used.  The
-stopwatches we used were brand \#\#\#\#\#.  There were two sources of systematic 
+To reduce random error in measuring the pendulum length 
+it is possible to measure the string length several 
+different times and average the results; in practice, our different 
+measurements returned either close to or exactly the same results, and so 
+we adopted the practice of only measuring the length once. We also tried using 
+mirrors to reduce parallax in the length measurement
+
+The next step was to determine the uncertainty of the stopwatch we used. 
+There were two sources of systematic 
 uncertainty in the time measurements made by the stopwatch.  The first was the 
 gain/lag the stopwatch had over real time.  The second was simply the finite 
 gradations of time measured by the stopwatch ($.01 s$).  To account for the 
@@ -189,7 +227,7 @@ first source of systematic error (and also to determine which of the two
 authors were most accurate in their time measurements) we timed 
 ourselves against an atomic clock for 1s and 100s intervals.  (On the second
 day, 20s and 50s intervals). JW 
-was determined to have the best accuracy and was 
+was determined to have the best accuracy {\bf (and precision?)} and was 
 designated as the official timekeeper for the duration of the study.  
 We then used the following equation to find how much the stopwatch time
 differed from the atomic clock time (defined as $S$):
@@ -519,8 +557,17 @@ document.
 \begin{thebibliography}{}
 
 %\bibitem[
-\bibitem[[1]]{Murdin}
-Paul Murdin, (2008). {\it Full Meridian of Glory: Perilous Adventures in the Competition to Measure the Earth}, 1st Ed. (Copernicus Books, New York, NY 2008), p. 41.
+\bibitem[[1]]{Geo}
+[1] F.A. Darbyshire, R.S. White, and K.F. Priestly, "Structure of the crust and uppermost mantle of Iceland from a combined seismic and gravity study," {\it Earth Planet. Sci. Lett.} {\bf 48} (3), 409 (2000).
+\bibitem[[2]]{Murdin}
+[2] P. Murdin, (2008). {\it Full Meridian of Glory: Perilous Adventures in the Competition to Measure the Earth}, 1st Ed. (Copernicus Books, New York, NY 2008), p. 41.
+\bibitem[[3]]{Nelson}
+[3] R.A. Nelson and M.G. Olsson, "The Pendulum-Rich Physics from a Simple System," {\it Am. J. Phys.} {\bf 54}, 112-121 (1986).
+\bibitem[[4]]{nist}
+[4] http://physics.nist.gov/cuu/Constants/index.html
+\bibitem[[5]]{nasa}
+[5] http://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html
+
 
 \end{thebibliography}{}
 
