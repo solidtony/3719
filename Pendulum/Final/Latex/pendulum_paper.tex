@@ -1,0 +1,421 @@
+%20130916 JW, first writing
+\documentclass[iop]{emulateapj}
+
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{amsmath,amsthm,amssymb}
+
+\def\g{$g$}
+\def\t{$t$}
+\def\T{$T$}
+\def\Ttwen{$T_{20}$}
+\def\fillin{\#\#\#\#????}
+\def\deg{^{\circ}}
+
+\begin{document}
+
+\title{Humpty Dumpty Had a Great Fall: Measuring the Acceleration due to Gravity with a Simple Pendulum}
+
+\author{ Anthony D. Garcia
+and
+Joshua J. Wallace}
+\affil{Advanced Undergraduate Lab, Department of Physics and Astronomy, University of Utah,
+ 115 South 1400 East, Salt Lake City, UT 84112
+}
+
+\begin{abstract}
+
+\g man, \g!
+
+\end{abstract}
+
+\section{Introduction}
+
+Of the four fundamental forces of nature, gravity is the one that we have the 
+most experience with in our everyday lives.  It is such a constant in our lives 
+that every movement we make factors in the force of gravity, even if we are not
+aware of it. We put objects down, expecting them to stay there because of 
+gravity. A basketball player shoots a ball upwards, expecting the familiar 
+parabolic arc due to gravity to bring it back down into the basket.  Even the
+common phenomenon known as walking relies on gravity's pull to give our feet
+the friction needed to push us forward. Our experience with gravity is so
+intimate that we can predict the exact trajectory of free-falling objects 
+without having to use any equations or numbers (take the basketball player's 
+shot for example. Shots are made regularly without any prior knowledge of 
+the equations governing the motion of the ball).
+
+One measure of the force of gravity is \g, the acceleration due to gravity. 
+Since the acceleration due to gravity is independent of an object's mass, 
+this provides a universal measure of gravity's pull on everything.
+
+Importance of calculating g:  study mantle, earthquakes?, earth's density 
+(similar to recent lunar probes), clock timing (which use pendula as well)...
+
+To calculate \g, we will use a pendulum setup quite similar to that of the
+pendulum clocks mentioned above.  Such pendulum experimentsSection~\ref{sec:theory} will introduce the 
+physics behind this calculation more thoroughly.  Here we state the intended 
+goals of our study of the motion of a simple pendulum:  (1) To be able to 
+determine the value of \g, which as discussed above is an important parameter
+for a variety of calculations; (2) to test a mathematical model (introduced in 
+section~\ref{sec:theory}) of a physical system and compare the correspondence 
+between the two and (3) use the process as an introduction into the sources of 
+errors and their propagation to gain greater skills as a physicist-in-training. 
+The experiment we will be performing is discussed in great detail in .......... 
+
+\section{Theoretical Background}
+\label{sec:theory}
+
+
+Later gater...
+
+Also talk about small angle approximation...
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=85mm]{../../Images/FreebodyDiagram.png}
+\caption{Diagram of a simple pendulum. 
+$\theta$ is the angle between the string
+and the rest position of the pendulum, $l$ is the length of the pendulum,
+$\vec{W}$ is the weight force of the bob (i.e. $W = mg$), $\vec{W}_\perp$ is the 
+component of the weight force perpendicular to $l$, $\vec{W}_\parallel$ 
+is the component of the weight force parallel to $l$.}
+\label{Pendulum}
+\end{figure}
+
+
+The motion of a simple pendulum can be derived by analyzing the torques (or forces) that acts 
+on the bob of the pendulum. Assume the string that the pendulum hangs from is massless, and
+its length l does not change. Friction on the string at the fulcrum as well as the
+air drag on the bob is also ignored. See Appendix A for the full derivation
+of the equation of motion for the simple harmonic oscillator.
+
+
+From Figure 1; T is the tension force on the rope, l is the length of the
+rope (or r$\cdot\hat{r}$, where $\hat{r}$ is a unit vector), $\theta$ is the angle, and W is the weight given by m$\cdot$g.
+
+
+Using the small angle approximation
+\begin{equation}
+\boxed{sin\theta \approx \theta}
+\end{equation}
+for small angles, we derive the equation of motion
+\begin{equation}
+\boxed{T = 2\pi\sqrt{\frac{l}{g}}}
+\end{equation}
+to model a simple pendulum.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\section{Experimental Procedure}
+\label{sec:procedure}
+
+\subsection{Setup}
+
+The setup consisted of a metal frame attached to a wall, a string, a 
+protractor, and a metal 
+ball.  The metal ball connected to the string via a hook on the ball, which 
+hooked into a loop tied in the string.  The pivot point of the pendulum was 
+set with the same screw that held the protractor on to the frame.  The screw 
+could be tightened or loosened to ensure the string's being pinned at the 
+pivot point without causing the string to be torn.  The string was anchored 
+on top of the metal frame by wrapping it around a screw and then pinning the 
+string to the frame with a nut on the screw.  The string length was easily 
+adjusted by loosening the nut, adjusting the string, and re-tightening the 
+nut.  The string had to be threaded through a tiny hole in the frame near 
+the pivot point. 
+A screw and wing nut on the side of the frame provided a convenient hold 
+for a measuring stick to measure the length of the pendulum.  The frame also 
+had a flat area in the frame level with it, which was useful for a tape 
+measure to rest against when making a measurement.  However, it should be 
+noted that a screw was used instead of a bolt to hold the string against the 
+pivot point.  This prevented us from tightening the screw against the string 
+completely, since doing so would cause the screw to sever the string.  Since 
+the screw could not be tightened completely the pivot point itself was not 
+set well.  This was a limitation in our setup which we did not have the 
+resources to fix.
+
+The protractor was held firmly but not tightly against the frame, allowing it 
+to be aligned with the vertical when the pendulum was at rest but also 
+keeping it in place during minor bumps.  While this helped us not to have to 
+reset the protractor position frequently it also made it hard to accurately 
+set the protractor in the first place. The firmness with which the protractor 
+was held made it difficult to move the protractor through the small angles 
+necessary to set the $0\deg$ point as exact as possible.  This increased the 
+uncertainty in our angle measurements.
+
+\subsection{Procedure}
+
+The first measurements we made were those of the ball diameter and the length 
+of the hook on the top of the ball.  Due to the size of 
+the ball and the large uncertainty associated with measuring the full length 
+from the pivot point to the ball center (the center of mass of the
+ball) we decided it would be best to measure the length of the string from the
+pivot point to the top of the hook of the ball and then add the measured values 
+for the hook height and ball radius afterwards.  The uncertainties from the 
+caliper measurements are small enough compared to the uncertainty in using 
+either a measuring stick or a tape measure in determining the length of the
+string that making three separate measurements like this do not create an 
+unnecessarily large uncertainty in length.  As stated above, a tape measure 
+and/or measuring stick were used to measure the distance from the pivot point
+to the top of the hook.  This was the distance that was measured when the
+pendulum length was varied.
+
+The next step was to determine the uncertainty of the stopwatch we used.  The
+stopwatches we used were brand \#\#\#\#\#.  There were two sources of systematic 
+uncertainty in the time measurements made by the stopwatch.  The first was the 
+gain/lag the stopwatch had over real time.  The second was simply the finite 
+gradations of time measured by the stopwatch ($.01 s$).  To account for the 
+first source of systematic error (and also to determine which of the two 
+authors were most accurate in their time measurements) we timed 
+ourselves against an atomic clock for 1s and 100s intervals.  (On the second
+day, 20s and 50s intervals). JW 
+was determined to have the best accuracy and was 
+designated as the official timekeeper for the duration of the study.  
+We then used the following equation to find how much the stopwatch time
+differed from the atomic clock time (defined as $S$):
+
+\begin{equation}
+\label{eq:S}
+S=\frac{t_{atomic}-t_{mean}}{t_{atomic}} 
+\end{equation}
+
+where $t_{atomic}$ is the real time as measured by the 
+atomic clock 
+and $t_{mean}$ is the mean of the times measured by the 
+stopwatch.  This ratio was multiplied by all the \T\ we measured to give
+the error from the gain/lag of the stopwatch.
+
+Measuring against the atomic clock provided a measure of both the stopwatch's 
+own limitations and the user's reaction time.  However, it is impossible to 
+separate the two.  In order to fully account for the user's reaction time the 
+above error was assumed to be due entirely to the stopwatch's limitations and 
+a separate calculation was made of the timekeeper's reaction time.  This was 
+done by having the timekeeper push the start and stop button on the 
+stopwatch as fast as possible.  The average of these times was included in 
+the overall error in measuring \T.
+
+The next thing we did was determine the best way to measure the period of the 
+pendulum's swing, i.e., a method that would allow us to both be accurate 
+(allowing us to obtain a true value for \g) and precise (thus reducing random 
+error). We first compared whether it was better to start timing a period from 
+when the ball was released or to wait a period and start timing with the 
+second period.  We wanted to see if there was a difference in accuracy and 
+precision between the simultaneous double hand movement of releasing the ball 
+while starting the stopwatch and just timing the period by eye. For this we 
+timed a single swing of the pendulum eight times for both cases (i.e. starting 
+timing with the swing and starting timing with the second swing). $\theta_{max}$ 
+{\bf check thetamax!} was kept small (i.e., about $5\deg$) to ensure the 
+validity of the small angle approximation (a more detailed analysis of what 
+consitutes a "small angle" is provided in section \fillin). This was done 
+for two different lengths: one around $26cm$ and the other around \fillin$cm$. 
+$\theta_max$ {\bf check thetamax!} was kept small (i.e., about $5\deg$) 
+
+Unfortunately the method with the lowest 
+mean (timing from release) had the largest spread in times measured and 
+vice-versa (for timing the second period). We chose to go 
+with the method with the least uncertainty (i.e. lowest spread, or timing the 
+second swing) over greatest accuracy because we figured that the method we 
+used to determine the stopwatch gain/lag was closest to the method that timed 
+the second swing; for both methods, the start and stop time were determined by 
+eye.  If we had pushed a button on the atomic clock to start its timing at the 
+same moment we had started the stopwatch, then this method would have been 
+more similar to the method that used the release time of the pendulum to 
+measure \T.  Therefore, the ratio $S$ determined by equation~\ref{eq:S} 
+factors in the inaccuracy of the second period-measuring method more 
+than the first method (in addition to the stopwatch's own gain/lag). The 
+inaccuracy of the second method being thus accounted for we are free to choose 
+the method that provides the lowest random uncertainty. 
+
+We then measured the period of 20 oscillations (starting from the second 
+swing) five separate times ($\theta_{max}$ was again kept around $5\deg$). 
+We refer to this measurement as $T_{20}$. The purpose of this 
+measurement was to reduce the error in determining the period.  Since 
+$T=\frac{T_{20}}{20}$ it follows that
+\begin{equation}
+\label{eq:T20error}
+\delta_T = \frac{\delta_{T20}}{20}.  Derive this later
+\end{equation}
+A more detailed derivation of equation~\ref{eq:T20error} is available in 
+Appendix B ({\bf Provide more specific equation number in appendix!!}).
+Thus, measuring 20 periods allows us to reduce the error in \T\ by a factor of 
+20.  Since measuring 20 periods is not more difficult or significantly more 
+time consuming than just measuring one period, this provides a relatively easy 
+way to reduce the uncertainty in \T.  ?After measuring \Ttwen\ five times we 
+found the mean, the standard deviation, ???and the standard deviation of the 
+mean?.  As will be shown in section~\ref{sec:data}, five was a good number of trials to 
+choose to reduce the random uncertainty to values comparable to the systematic 
+uncertainties without having to perform the experiment and unnecessarily large 
+number of times. {\bf We must show this!!!!}  The length of the string was 
+then increased to the previous mentioned second length of 
+about \fillin $cm$ and the above process was repeated (i.e., 
+timing the first period, timing the second period, timing 20 periods).
+
+A value for \g\ was then calculated for each of the above measurements (6 in 
+total). Each was compared to the accepted value of \g, \fillin.  {\bf The 
+method with the least uncertainty in \g\ was taken to be our method of choice 
+in determining a more accurate value of \g\ later.}  The method chosen was the 
+"\Ttwen\" method, where the time of 20 periods are measured and the value of 
+\T\ is found by dividing \Ttwen\ by 20.  As shown in 
+equation~\ref{eq:T20error} the error of \Ttwen\ is also divided by 20, thus 
+causing this method to lead to greater precision.  {\bf hopefully it will lead 
+to greater accuracy as well.  We must find out}. 
+
+To minimize the uncertainty in measuring the string length, we used two 
+different measuring methods to see which we felt gave us the most accuracy. 
+We used a measuring stick and a tape measure.  We felt the tape measure gave 
+us the most accurate measurement because we could put the $0cm$ end right at 
+the pivot point (as opposed to the measuring stick, which required us to line 
+up the stick with the pivot point level, adding in uncertainty, and also 
+required us to reset it every time we wanted to make a measurement since it 
+was in the way of the ball swing. The tape measure had this same situation 
+as well, but since we could place its end directly on the pivot point level 
+we knew we would have the same zero point every time. Thus, any error in 
+measuring the zero point with the tape measure would be the same for all 
+length measurements made by the measuring stick.  Since \g\ will be found 
+from the slope of equation~\fillin, an error that is the same for all length 
+measurements will not affect the calculated value of \g.  The measuring stick, 
+on the other hand, would have to have its zero point reset for every length 
+measure, thus providing random error in the length measurements that would 
+not be the same for every length measurement and could affect the calculated 
+value of \g).  It is important to note that the measuring tape's metal claw 
+moves depending on whether you are measuring inside or outside and object. 
+Since we were measuring inside an object (i.e., underneath the metal frame 
+where the pivot point was located) we made sure that the metal claw was always 
+pushed down towards the measuring tape to give us an accurate measure.  
+Another reason the tape measure was chosen over the measuring stick was 
+because it allowed us a more accurate measure at the ball's end of the string. 
+Since the ball had a finite size, it got in the way of a direct measure of the 
+top of the hook's location ("direct" meaning being able to lay the hook on the 
+measuring stick and seeing which line it matched). {\bf include?:  We also could not rotate 
+the ball out of the way of the measuring stick, since doing so required us to 
+take a part of the ball's weight into our hand.  The problem with this was 
+that the string we used was not truly inextensible as is ideal and the weight 
+of the ball had an effect on the length of the string.  Taking the weight of 
+the ball off the string and into our hand caused the string to relax from its 
+fully extended length (how accurate can we determine this?}  The measuring 
+tape, on the other hand, provided the flexibility necessary to bend the 
+measuring device around the ball, allowing us to get a direct measure of the 
+length (great care was taken to ensure that portion of the tape measure that 
+was bent was past the portion of the tape measure involved in measuring the 
+length so that the measurement was as accurate as possible). For long lengths 
+of the string it became necessary for two people to operate the tape measure:
+one to read the measurement at the bottom of the tape measure and one to hold 
+claw next to the pivot point.  Care was taken that the claw was pushed down 
+towards the measuring tape as described above.  Statisitical information was 
+also obtained on the length of the pendulum by having each measured twice
+......%We didn't measure everthing twice, and Yanil said we didn't need 
+%to, I think so maybe shouldn't include this part.
+
+Parallax...
+%Still don't know how to use it...
+
+We next tested the limits of validity for the small angle approximation and 
+the accuracy of the model expressed by equation~\fillin. %large angle model
+For three different lengths we measured \Ttwen\ for $\theta_{max} = 3\deg, 
+5\deg, 10\deg, 20\deg,$ and $40\deg$.  %From these measurements it would seem 
+%that $\theta_{max}\leq 10\deg$
+After verifying the model of equation~\fillin\ we calculated that 
+%This fillin corresponds to the model given in the handout
+$\theta_{max}=5\deg$ will give us a model uncertainty small enough compared 
+to our systematic uncertainties to be negligible.  See Appendix B section 
+\fillin\ for a more detailed analysis.
+%This section will be our calculation of T_err less than .1 percent
+%should get theta_max=7.2.  5 degrees is within our error of 7.2.
+
+Having established all our systematic uncertainties and determining the best 
+method to measure \T for the resources we had, we then turned to making a more 
+accurate measurement of \g.  To do this, we chose ten lengths in range from 
+$~.3m$ to $~1.5m$.  Since we had recently discovered an easier way to use the 
+measuring stick to make length measurements, each length was measured with 
+both the tape measure and the measuring stick.  Since the measuring stick 
+still proved hard to use to make accurate measurements and to keep continuity 
+with our previous length measurements, we decided to use the lengths measured 
+with the tape measure in our final calculation of \g. We then measured 
+\Ttwen\ five times for each length.  
+
+One thing we learned in measuring \T\ (likewise \T20) was how to accurately 
+determine what constituted the beginning and end of a period.  The best 
+method we found was to concentrate on the classical turning points. {\bf 
+Should we include this?  We don't have data to back this up.}
+
+Anything else to discuss?  Pitfalls?
+
+
+
+
+
+
+
+
+
+
+\section{Data and Results}
+\label{sec:data}
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Discussion}
+\label{sec:discuss}
+
+Coriolis force, moment of inertia, air friction...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Conclusion}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\acknowledgments
+
+We thank Lia Papadopolous and Zach Carson for helpful conversations and 
+suggestions.  We also thank Zheng Zheng for help with typesetting the 
+document.
+
+
+
+
+
+
+\begin{thebibliography}{}
+
+%\bibitem[
+\bibitem[]{}
+Paul Murdin, (2008). {\it Full Meridian of Glory: Perilous Adventures in the Competition to Measure the Earth}, 1st Ed. (Copernicus Books, New York, NY 2008), p. 41.
+
+\end{thebibliography}{}
+
+\end{document}
