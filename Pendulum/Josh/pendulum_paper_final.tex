@@ -622,7 +622,7 @@ by solving equation~\fillin\ for \g.  The result is
 
 \begin{equation}
 g=\frac{4*\pi^2*l}{T^2}.
-\label{eqn:greference}
+\label{eqn:g.reference}
 \end{equation}
 
 For timing the first period of the short length above, we get $g=
@@ -780,7 +780,7 @@ Length (m) & \multicolumn{5}{c}{$T_{20}$ (s)} & $\overline{T^2}$ ($s^2$)\\ [0.5e
 \section{Appendix B: Derivations and Error Propagation}
 
 
-The motion of a simple pendulum can be derived by analysing the torques (or forces) that acts 
+The motion of a simple pendulum can be derived by analyzing the torques (or forces) that acts 
 on the bob of the pendulum. Assume the string that the pendulum hangs from is massless, and
 its length l does not change. Friction on the string at the fulcrum as well as the
 air drag on the bob is also ignored. The definition of torque is given by;
@@ -894,7 +894,41 @@ This periodicity is what we call the Period;
 \end{equation}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%Here we talk about the four uncertainty sources for T:
 
+There are four sources of uncertainty for any measurement of \T\ (\Ttwen): 
+the stopwatch's own limit in time measurement 
+$\delta_{sw} = .01s$; the stopwatch's gain/lag over real time (as determined 
+by measuring against the atomic clock) $\delta_{at} = .001*T$ ($=.001*T_{20}$) 
+(value obtained 
+from \fillin); the timekeeper's own reaction time $\delta_{rt} = .17s$ (
+value obtained from \fillin) and the standard deviation of the mean of \T\ 
+(\Ttwen) $\sigma_{\overbar{T}}$ ($\sigma_{\overbar{T_{20}}}$ which value will 
+change from measurement to measurement.  These errors are added in quadruture 
+as shown below (not that \Ttwen\ can be replaced by \T\ everywhere):
+
+\begin{equation}
+
+\delta T = sqrt{ \delta_{sw}^2 + \delta_{at}^2 + \delta_{rt}^2 \\
++ \sigma_{\overbar{T}}}
+\label{eq:ep.T}
+\end{equation}
+
+
+%%%This is the derivation for error propagation for 
+%%g=4*pi^2*l/T^2, which is used for the first measurements
+%%to calculate a quick value for g and verify accuracy.
+
+The uncertainty of \g\ for equation~\ref{eqn:g.reference} (maybe will be 
+different equation number) is given by the following equation:
+
+\begin{equation}
+
+\delta g=\sqrt{(\frac{\partial g}{\partial l}*\delta l)^2 + \\
+(\frac{\partial g}{\partial T}*\delta T)^2} = \\
+4*\pi^2 sqrt{(\frac{1}{T^2}*\delta l)^2 + (\frac{l}{T^3}*\delta T)^2}
+\label{eqn:ep.g}
+\end{equation} 
 
 
 
