@@ -26,7 +26,7 @@ Joshua J. Wallace}
 
 \begin{abstract}
 
-\g man, \g!
+\g\ man, \g!
 
 \end{abstract}
 
@@ -176,8 +176,6 @@ and measuring tape could measure lengths down to $.1~cm$
 of the ball; this could measure lengths down to $1\times 10^{-5}~m$. There 
 were also mirrors that could be used to reduce parallax.
 
-
-
 The protractor was held firmly but not tightly against the frame, which 
 allowed it to be aligned with the vertical when the pendulum was at rest 
 but also 
@@ -190,7 +188,12 @@ uncertainty in our angle measurements.
 
 We used MyChron brand stopwatches to time the period of the pendulum 
 swing.  The stopwatch options we utilized in this experiment were the 
-"start/stop" option and the "reset" option. The stopwatch could measure time 
+"start/stop" button and the "reset" button. A measurement was made by pushing 
+the "start/stop" button when the time period we desired to measure began and 
+pushing the "start/stop" button again when the time period had concluded. The 
+time was recorded and the "reset" button was pushed, allowing us to start the 
+next measurement from $0~s$. The stopwatch could measure time down to 
+$.01~s$. 
 We used a Westclox brand atomic clock as our standard for real time 
 to see how much our stopwatch's time varied from real time.
 
@@ -216,7 +219,25 @@ it is possible to measure the string length several
 different times and average the results; in practice, our different 
 measurements returned either close to or exactly the same results, and so 
 we adopted the practice of only measuring the length once. We also tried using 
-mirrors to reduce parallax in the length measurement
+mirrors to reduce parallax in the length measurement but found this 
+unsuccessful.  The idea was to hold the mirror perpendicular to the ground
+and line up the measuring stick markings with the corresponding markings 
+of its reflection before taking a measurement of length.  This established a 
+"measuring plane" for each mark of the measuring stick, which passed through 
+a mark on the measuring stick and the mark's corresponding reflection in the 
+mirror.  The plane being thus established a measurement could be made free of 
+parallax when the spot we wanted to measure was lined up in one of these 
+"measuring planes."  In practice, whether or not the mirror was perpendicular 
+to the ground was nearly impossible to determine (since the only perpendicular 
+reference we had, the wall, was far enough away from the pendulum that 
+locating the appropriate measuring mark's reflection was extremely difficult. 
+Additionally, we had no measure of whether the wall was truly perpendicular 
+to the ground) and added its own level of uncertainty that we decided it would 
+be best if we did not use the mirror and just reduced parallax as best as 
+possible by being aware of it and eliminating it ourselves or including it in 
+our measurements uncertainty when we were certain our measurement was not 
+parallax-free.
+
 
 The next step was to determine the uncertainty of the stopwatch we used. 
 There were two sources of systematic 
@@ -392,10 +413,17 @@ with the tape measure in our final calculation of \g. We then measured
 \Ttwen\ five times for each length.  
 
 One thing we learned in measuring \T\ (likewise \T20) was how to accurately 
-determine what constituted the beginning and end of a period.  The best 
-method we found was to concentrate on the classical turning points. {\bf 
-Should we include this?  We don't have data to back this up.}
-
+determine what constituted the beginning and end of a period.  The clearest 
+way seemed to be to concentrate on the "turning points," i.e., where the 
+pendulum stopped in its motion completely and started moving the opposite 
+direction.  The pendulum was moving slowest close to the turning points (as 
+it should be, because it was nearing the points of highest potential energy in 
+its motion and therefore smallest kinetic energy) and so it was easier to 
+determine when a turning happened, as opposed to determining when the 
+pendulum crossed its point of lowest potential energy and had the highest 
+speed.  The turning around of the pendulum motion also provided a concrete 
+visual moment that was easier to turn in to a stopwatch button push than any 
+other moment in the pendulum's swing.
 Anything else to discuss?  Pitfalls?
 
 
@@ -407,12 +435,63 @@ Anything else to discuss?  Pitfalls?
 
 
 
-\section{Data and Results}
+\section{Results and Discussion}
 \label{sec:data}
+
+We first present the data we obtained from measuring various dimensions and 
+properties of the bob.  In table \ref(tab:diameter} we present the diameter 
+of the bob 
+as measured along different axes through the bob.  The average of these values 
+gave us the value we used for the diameter (and in turn the radius) of the 
+bob.
+\begin{table}[H]
+\caption{Diameter of the bob} %title of the table
+\centering
+\begin{tabular}{c c}
+\hline\hline
+Diameter ($cm$) & Uncertainty in Measurement ($cm$)
+\hline
+ 3.800 & $\pm$ .003
+ 3.799 & $\pm$ .003
+ 3.801 & $\pm$ .003
+ 3.800 & $\pm$ .003
+ 3.800 & $\pm$ .003
+ %Average value 3.800, error \pm .003035
+ \hline
+ Average ($cm$) & Uncertainty in Average ($cm$)
+ 3.800 & $\pm .003$
+ \hline
+ Radius ($cm$) & Uncertainty in Radius ($cm$)
+ 1.900 & $\pm .002$
+ \end{tabular}
+ \label{tab:diameter}
+ \end{table}
+ 
+ Other pertinent information on the bob are recorded in table 
+ \ref{tab:hresult}.
+
+\begin{table}[H]
+\caption{Dimensions of the bob} %title of the table
+\centering % centering table
+\begin{tabular}{c c c} % creating eight columns
+\hline\hline %inserting double-line
+Quantity & Uncertainty in Measurement & Measured Value\\ [0.5ex]
+\hline % inserts single-line
+Mass (g) & $\pm$ 0.1 & 226.2\\ % Entering row contents
+%Diameter (mm) & $\pm$ 0.03 & 38.02\\%%Need more diameter measurements
+%Radius (m) & $\pm$ 0.00002 & 0.01901\\
+Hook Length (mm)& $\pm$ 0.03 & 11.95\\
+Hook Length (m)& $\pm$ 0.00003 & 0.01195\\[1ex] % [1ex] adds vertical space
+\hline % inserts single-line
+\end{tabular}
+\label{tab:hresult}
+\end{table}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+{\bf Move these next two tables to one of the appendicies}
 
+%%%We need to use all four atomic clock measurements here.
 \begin{table}[H]
 \caption{Atomic Clock Measurements} % title of Table
 \centering % used for centering table
@@ -454,8 +533,120 @@ $\sigma_{\overline{Rt}}$ & 0.01 \\    [1ex] % [1ex] adds vertical space
 \label{table:nonlin} % is used to refer this table in the text
 \end{table}
 
+%%%%%%%
+
+The first \T\ measurements we made were comparing the timing of the first 
+swing, the timing of the second swing, and measuring \Ttwen\ for a short 
+length. \theta_{max} was kept to $3\deg$ for each swing so that the small 
+angle approximation held. 
+The data of measuring from the first swing 
+are presented in table~\ref{tab:firstswingshort}, the data of measuring from 
+the second swing are presented in table~\ref{tab:secondswingshort}, and the 
+data from measuring \Ttwen\ are presented in table~\ref{tab:Ttwenshort}. {\bf 
+Maybe we should move this table to the appendix}.
+
+\begin{table}
+\caption{Measuring \T\ For First Period: Short Length}
+\centering
+\begin{tabular}{c c}
+\hline
+Length
+(26.2 $\pm$ .1) $cm$
+\hline
+Attempt Number & \T($s$)
+1 & .96
+2 & 1.11
+3 & .97
+4 & .99
+5 & 1.01
+6 & 1.09
+7 & 1.08
+8 & 1.04
+\hline
+Mean & $\sigma_{\overline{T}}
+1.03 & .058
+\hline
+\end{tabular}
+\label{tab:firstswingshort}
+\end{table}
+
+\begin{table}
+\caption{Measuring \T\ For Second Period: Short Length}
+\centering
+\begin{tabular}{c c}
+\hline
+Length
+(26.2 $\pm$ .1) $cm$
+\hline
+Attempt Number & \T($s$)
+1 & 1.14
+2 & 1.07
+3 & 1.03
+4 & 1.12
+5 & 1.13
+6 & 1.14
+7 & 1.10
+8 & 1.12
+\hline
+Mean & $\sigma_{\overline{T}}
+1.11 & .039
+\hline
+\end{tabular}
+\label{tab:secondswingshort}
+\end{table}
+
+\begin{table}
+\caption{Measuring \Ttwen: Short Length}
+\centering
+\begin{tabular}{c c}
+\hline
+Length
+(26.2 $\pm$ .1) $cm$
+\hline
+Attempt Number & \T($s$)
+1 & 22.09
+2 & 21.97
+3 & 21.86
+4 & 21.84
+5 & 21.96
+\hline
+Mean & $\sigma_{\overline{T}}
+21.94 & .10
+\hline
+\end{tabular}
+\label{tab:Ttwenshort}
+\end{table}
+
+We can calculate a value for \g\ for each of the three cases listed above 
+by solving equation~\fillin\ for \g.  The result is
+
+\begin{equation}
+g=\frac{4*\pi^2*l}{T^2}.
+\label{eqn:greference}
+\end{equation}
+
+For timing the first period of the short length above, we get $g=
+
+For the longer length of pendulum the data of measuring from the first swing 
+are presented in table~\ref{tab:firstswingshort}, the data of measuring from 
+the second swing are presented in table~\ref{tab:secondswingshort}, and the 
+data from measuring \Ttwen\ are presented in table~\ref{tab:Ttwenshort}. {\bf 
+Maybe we should move this table to the appendix}.
+
+Data tables, maybe make all three together.
 
 
+
+%%%%The big one!!!
+
+We then measured \Ttwen\ five times each for ten different lengths. These 
+measurements were taken with the intent to do a least square fitting 
+to $T^2$ and $l$.  The slope of this line (as shown by equation~\fillin) is 
+inversely proportional to \g.  These data are plotted in figure~\fillin. 
+Table \ref{tab:10lengths} in Appendix A shows the raw data of these 
+measurements.
+
+\begin{figure*} 
 
 \begin{table}[H]
 \caption{Period Measurement for Varying Lengths} %title of the table
@@ -476,26 +667,11 @@ Length (m) & \multicolumn{5}{c}{$T_{20}$ (s)} & $\overline{T^2}$ ($s^2$)\\ [0.5e
 1.498 & 49.77 & 49.82 & 49.81 & 49.72 & 49.70 & 1.28\\ [1ex] % [1ex] adds vertical space
 \hline % inserts single-line
 \end{tabular}
-\label{tab:hresult}
+\label{tab:10lengths}
 \end{table}
 
 
-\begin{table}[H]
-\caption{Dimensions of the bob} %title of the table
-\centering % centering table
-\begin{tabular}{c c c} % creating eight columns
-\hline\hline %inserting double-line
-Quantity & Uncertainty in Measurment & Measured Value\\ [0.5ex]
-\hline % inserts single-line
-Mass (g) & $\pm$ 0.1 & 226.2\\ % Entering row contents
-Diameter (mm) & $\pm$ 0.03 & 38.02\\
-Radius (m) & $\pm$ 0.00002 & 0.01901\\
-Hook Length (mm)& $\pm$ 0.03 & 11.95\\
-Hook Length (m)& $\pm$ 0.00003 & 0.01195\\[1ex] % [1ex] adds vertical space
-\hline % inserts single-line
-\end{tabular}
-\label{tab:hresult}
-\end{table}
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -509,9 +685,6 @@ Hook Length (m)& $\pm$ 0.00003 & 0.01195\\[1ex] % [1ex] adds vertical space
 
 
 
-
-\section{Discussion}
-\label{sec:discuss}
 
 Coriolis force, moment of inertia, air friction...
 
@@ -578,6 +751,29 @@ document.
 \numberwithin{equation}{section}
 \section{Appendix A: Additional Data}
 
+Table~\ref{tab:10lengths} shows the data used to make figure~\fillin.
+
+\begin{table}[H]
+\caption{T Measurement for Various Lengths} %title of the table
+\centering % centering table
+\begin{tabular}{c rrrrr c} % creating eight columns
+\hline\hline %inserting double-line
+Length (m) & \multicolumn{5}{c}{$T_{20}$ (s)} & $\overline{T^2}$ ($s^2$)\\ [0.5ex]
+\hline % inserts single-line
+0.280 & 22.68 & 22.64 & 22.64 & 22.58 & 22.56 & 6.19\\ % Entering row contents
+0.415 & 27.03 & 27.05 & 27.07 & 27.03 & 27.06 & 5.78\\
+0.546 & 30.61 & 30.74 & 30.57 & 30.65 & 30.58 & 5.37\\
+0.638 & 32.97 & 33.04 & 33.05 & 33.03 & 32.96 & 4.75\\
+0.800 & 36.70 & 36.65 & 36.73 & 36.74 & 36.71 & 4.13\\
+0.989 & 40.65 & 40.73 & 40.62 & 40.62 & 40.72 & 3.37\\
+1.143 & 43.60 & 43.61 & 43.59 & 43.56 & 43.53 & 2.72\\
+1.293 & 46.33 & 46.46 & 46.40 & 46.26 & 46.29 & 2.34\\
+1.395 & 48.01 & 48.06 & 48.12 & 48.17 & 48.09 & 1.83\\
+1.498 & 49.77 & 49.82 & 49.81 & 49.72 & 49.70 & 1.28\\ [1ex] % [1ex] adds vertical space
+\hline % inserts single-line
+\end{tabular}
+\label{tab:10lengths}
+\end{table}
 
 \appendix
 \numberwithin{equation}{section}
